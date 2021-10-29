@@ -12,11 +12,13 @@ const sounds = {
   ambience: new Howl({
     src: ['https://sound-effects-media.bbcrewind.co.uk/mp3/NHU05018179.mp3'],
     autoplay: true,
+    volume: 0.5,
   }),
 
   victory: new Howl({
     src: ['https://sound-effects-media.bbcrewind.co.uk/mp3/07003077.mp3'],
   }),
+  volume: 0.25,
 };
 
 export default sounds;
