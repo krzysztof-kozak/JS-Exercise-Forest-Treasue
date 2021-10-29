@@ -52,6 +52,7 @@ function uncoverTreasure(tree) {
 
   sounds.treasure.play();
   sounds.victory.play();
+  sounds.ambience.fade(1, 0, 1000);
 
   showVictoryAlert().then(() => sounds.victory.fade(1, 0, 500));
 }
