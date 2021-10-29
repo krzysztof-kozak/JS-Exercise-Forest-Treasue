@@ -1,0 +1,9 @@
+{
+  "name": "js-9fvt9f",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "howler": "2.2.3",
+    "sweetalert": "^2.1.2"
+  }
+}
