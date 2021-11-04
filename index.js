@@ -54,7 +54,7 @@ function uncoverTreasure(tree) {
   sounds.victory.play();
   sounds.ambience.fade(1, 0, 1000);
 
-  showVictoryAlert().then(() => sounds.victory.fade(1, 0, 500));
+  showVictoryAlert().then(() => sounds.victory.fade(0.75, 0, 500));
 }
 
 function handleModalClick() {
